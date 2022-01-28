@@ -1,0 +1,243 @@
+<style>
+	body {
+		margin: 0px 0px 0px 0px;
+		font-family: serif;
+		background-color: #D9D9D7;
+	}
+
+	#bg {
+		background-color: #D1C2AF;
+		height: 496px;
+	}
+
+	#header {
+		background-image: url(../images/nyc.jpeg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-top: 0px;
+		height: 450px;
+		overflow: auto;
+	}
+
+	.pfpic {
+		display: block;
+		max-height: 250px;
+		max-width: 250px;
+		border-radius: 50%;
+		border-style: solid;
+		border-width: 15px;
+		border-color: #A77A6C;
+		margin-top:  35px;
+		margin-right: auto;
+		margin-left: auto;
+		vertical-align: bottom;
+	}
+
+	.pfpic:hover {
+		border-color: #D1C2AF;
+	}
+
+	.name {
+		max-width: 500px;
+		background-color: whitesmoke;
+		color: #A77A6C;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 20px;
+		box-shadow: -5px 5px 0px #A77A6C;
+	}
+
+	.name:hover {
+		color: #886F4E;
+		box-shadow: -5px 5px 0px #D1C2AF;
+	}
+
+	p{
+		text-align: center;
+		color: #A77A6C;
+		font-size: 35px;
+		font-style: italic;
+	}
+
+	nav {
+        padding-top: 3px;
+        margin-bottom: 0px;
+        display: block;
+        background-color: #D1C2AF;
+        max-height: 40px;
+        display: flex;
+	    justify-content: center;
+		align-items: center;
+    }
+
+    nav ul {
+        background-color: #D1C2AF;
+        text-align: center;
+        list-style-type: none;
+        padding-left: 0px;
+    }
+
+    nav li {
+        display: inline;
+        font-size: 20px;
+    }
+
+    nav a{
+        text-decoration: none;
+        color: #886F4E;
+        border-radius: 10px;
+    }
+
+    li a:link{
+        background-color: #D1C2AF;	
+    }
+
+    li a:hover{
+        background-color: #D9D9D7;
+        color: #B68463;
+        font-weight: bold;
+    }
+
+    #wrap {
+        padding: 10%;
+        text-align: center;
+        width: 80%;
+        padding-top: 100px;
+    }
+
+    .cnt {
+        display: inline-block;
+        width: 250px;
+        height: 200px;
+        border: 3px solid #A77A6C;
+        margin: 0px 20px 40px 20px;
+        padding-top: 20px;
+        background-color: #C5A89F;
+        color: #A77A6C;
+        font-size: 30px;
+    }
+
+            .cnt:hover {
+            	background-color: #7F8583;
+            	color: white;
+            	border-color: #3B3838;
+            }  
+
+            .cnt2 {
+            	display: inline-block;
+            	width: 250px;
+            	height: 200px;
+            	border: 3px solid #8E6142;
+            	margin: 0px 20px 20px 20px;
+            	padding-top: 20px;
+            	background-color: #B68463;
+            	color: whitesmoke;
+            	font-size: 30px;
+            }
+                     
+            .cnt2:hover {
+            	background-color: #B7A082;
+            	border-style: dotted;
+            	border-width: px;
+            	border-color: #886F4E;
+            	color: #886F4E;
+            }
+
+            .footer {
+            	background-color: #5E4138;
+            	height: 100px;
+            }
+
+            div.footer > p.cpyryt{
+            	font-size: 20px;
+            	padding-top: 40px;
+            	color: #A77A6C;
+            }
+
+           	div.footer > p.cpyryt:hover {
+            	color: whitesmoke;
+            }
+
+			/* zoom effect */
+
+			.click {
+				transition: transform .2s;
+			}
+
+			.click:hover {
+			  	transform: scale(1.1);
+			}
+
+			.click:active {
+			  	transform: scale(1);
+			  	transition: .15s;
+			}
+
+			.title {
+				float: right;
+				clear: left;
+				height: 150px;
+				background-color: #A77A6C;
+				position: absolute;
+				top: 496px;
+			}
+
+			div.title p {
+				font-size: 25px;
+				color: #D9D9D7;
+				width: 125px;
+				margin:  40px 5px;
+			}
+
+			.socials {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 150px;
+				background-color: #91A093;
+			}
+			
+			.sprite1 {
+				background: url('../images/finalsprite.png') no-repeat 0 0;
+				width: 77px;
+				height: 77px;
+			}
+
+			.sprite2 {
+				background: url('../images/finalsprite.png') no-repeat -241px 0;
+				width: 77px;
+				height: 77px;
+			}
+			
+			.sprite3 {
+				background: url('../images/finalsprite.png') no-repeat -160px 0;
+				width: 77px;
+				height: 77px;
+			}
+
+			.sprite1:hover {
+				background: url('../images/finalsprite.png') no-repeat 0 -84px;
+				width: 77px;
+				height: 77px;	
+			}
+
+			.sprite2:hover {
+				background: url('../images/finalsprite.png') no-repeat -241px -84px;
+				width: 77px;
+				height: 77px;	
+			}
+
+			.sprite3:hover {
+				background: url('../images/finalsprite.png') no-repeat -160px -84px;
+				width: 77px;
+				height: 77px;	
+			}
+
+			.fix {
+				display: inline-block;
+				float: left; 
+				margin: 10px; 
+				padding: 0px;
+			}
+
+		</style>
